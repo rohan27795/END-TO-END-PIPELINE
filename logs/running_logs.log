@@ -1,0 +1,272 @@
+[2026-06-02 17:40:25,491: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-02 17:40:25,508: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:40:25,520: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:40:25,534: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:40:25,536: INFO: common: created directory at: artifacts]
+[2026-06-02 17:40:25,538: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-02 17:40:30,589: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8BBC:3DDAEA:559811:D91360:6A1EC832
+Accept-Ranges: bytes
+Date: Tue, 02 Jun 2026 12:10:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210036-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1780402230.292046,VS0,VE293
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: daeb3feeb98943220d42c820241d144670d0ca17
+Expires: Tue, 02 Jun 2026 12:15:30 GMT
+Source-Age: 0
+
+]
+[2026-06-02 17:40:30,621: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:40:30,621: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-06-02 17:40:30,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:40:30,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:40:30,629: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:40:30,630: INFO: common: created directory at: artifacts]
+[2026-06-02 17:40:30,631: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-02 17:40:30,663: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:40:30,664: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-02 17:40:30,677: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:40:30,680: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:40:30,682: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:40:30,682: INFO: common: created directory at: artifacts]
+[2026-06-02 17:40:30,684: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-02 17:40:30,719: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-02 17:40:30,719: INFO: data_transformation: (1199, 12)]
+[2026-06-02 17:40:30,719: INFO: data_transformation: (400, 12)]
+[2026-06-02 17:40:30,722: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:40:30,722: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-06-02 17:40:30,725: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:40:30,726: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:40:30,730: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:40:30,731: INFO: common: created directory at: artifacts]
+[2026-06-02 17:40:30,732: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-02 17:40:30,780: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:40:30,780: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-06-02 17:40:30,784: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:40:30,785: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:40:30,787: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:40:30,788: INFO: common: created directory at: artifacts]
+[2026-06-02 17:40:30,789: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-06-02 17:40:30,813: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-06-02 17:40:30,813: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:44:43,566: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-02 17:44:43,570: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:44:43,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:44:43,574: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:44:43,575: INFO: common: created directory at: artifacts]
+[2026-06-02 17:44:43,577: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-02 17:44:43,577: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-06-02 17:44:43,581: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:44:43,582: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-06-02 17:44:43,586: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:44:43,588: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:44:43,590: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:44:43,592: INFO: common: created directory at: artifacts]
+[2026-06-02 17:44:43,594: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-02 17:44:43,623: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:44:43,624: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-02 17:44:43,629: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:44:43,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:44:43,633: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:44:43,634: INFO: common: created directory at: artifacts]
+[2026-06-02 17:44:43,636: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-02 17:44:43,667: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-02 17:44:43,667: INFO: data_transformation: (1199, 12)]
+[2026-06-02 17:44:43,669: INFO: data_transformation: (400, 12)]
+[2026-06-02 17:44:43,669: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:44:43,669: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-06-02 17:44:43,674: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:44:43,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:44:43,678: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:44:43,679: INFO: common: created directory at: artifacts]
+[2026-06-02 17:44:43,680: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-02 17:44:43,740: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-06-02 17:44:43,740: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-06-02 17:44:43,744: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-02 17:44:43,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-02 17:44:43,749: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-02 17:44:43,749: INFO: common: created directory at: artifacts]
+[2026-06-02 17:44:43,750: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-06-02 17:44:43,774: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-06-02 17:44:43,774: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-07 17:11:06,047: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-07 17:11:06,059: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-07 17:11:06,068: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-07 17:11:06,078: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-07 17:11:06,078: INFO: common: created directory at: artifacts]
+[2026-06-07 17:11:06,079: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-07 17:11:06,080: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-06-07 17:11:06,095: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-07 17:11:06,095: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-06-07 17:11:06,097: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-07 17:11:06,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-07 17:11:06,100: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-07 17:11:06,102: INFO: common: created directory at: artifacts]
+[2026-06-07 17:11:06,102: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-07 17:11:06,130: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-06-07 17:11:06,130: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-07 17:11:06,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-07 17:11:06,142: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-07 17:11:06,144: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-07 17:11:06,145: INFO: common: created directory at: artifacts]
+[2026-06-07 17:11:06,145: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-07 17:11:06,174: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-07 17:11:06,174: INFO: data_transformation: (1199, 12)]
+[2026-06-07 17:11:06,175: INFO: data_transformation: (400, 12)]
+[2026-06-07 17:11:06,175: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-07 17:11:06,176: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-06-07 17:11:06,178: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-07 17:11:06,180: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-07 17:11:06,181: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-07 17:11:06,182: INFO: common: created directory at: artifacts]
+[2026-06-07 17:11:06,182: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-07 17:11:06,217: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-06-07 17:11:06,217: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-06-07 17:11:06,219: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-07 17:11:06,221: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-07 17:11:06,222: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-07 17:11:06,223: INFO: common: created directory at: artifacts]
+[2026-06-07 17:11:06,225: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-06-07 17:11:06,242: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-06-07 17:11:06,243: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-07 17:45:03,366: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2026-06-07 17:45:03,366: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-06-07 17:45:03,389: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 17:45:04,593: WARNING: _internal:  * Debugger is active!]
+[2026-06-07 17:45:04,600: INFO: _internal:  * Debugger PIN: 108-422-529]
+[2026-06-07 17:45:31,425: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:31] "GET / HTTP/1.1" 200 -]
+[2026-06-07 17:45:31,474: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:31] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:45:31,477: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:31] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:45:31,480: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:31] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:45:31,484: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:31] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:45:32,010: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:32] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:45:32,011: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:32] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:45:32,059: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:45:32] "[33mGET /static/assets/favicon.ico HTTP/1.1[0m" 404 -]
+[2026-06-07 17:46:20,956: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:46:20] "POST /predict HTTP/1.1" 200 -]
+[2026-06-07 17:46:20,957: INFO: _internal:  * Detected change in 'C:\\Users\\tarun pothuri\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading]
+[2026-06-07 17:46:21,185: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 17:46:22,292: WARNING: _internal:  * Debugger is active!]
+[2026-06-07 17:46:22,296: INFO: _internal:  * Debugger PIN: 108-422-529]
+[2026-06-07 17:46:22,323: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:46:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-06-07 17:47:12,995: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2026-06-07 17:47:12,995: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-06-07 17:47:13,009: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 17:47:14,191: WARNING: _internal:  * Debugger is active!]
+[2026-06-07 17:47:14,195: INFO: _internal:  * Debugger PIN: 108-422-529]
+[2026-06-07 17:48:50,716: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:50] "GET / HTTP/1.1" 200 -]
+[2026-06-07 17:48:50,767: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:50] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:48:50,768: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:50] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:48:50,771: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:50] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:48:50,774: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:50] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:48:53,123: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:53] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:48:53,125: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:53] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:48:53,162: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:48:53] "[33mGET /static/assets/favicon.ico HTTP/1.1[0m" 404 -]
+[2026-06-07 17:49:29,403: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:49:29] "POST /predict HTTP/1.1" 200 -]
+[2026-06-07 17:49:29,454: INFO: _internal: 192.168.0.104 - - [07/Jun/2026 17:49:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:00,445: INFO: _internal:  * Detected change in 'C:\\Users\\tarun pothuri\\END-TO-END-PIPELINE\\app.py', reloading]
+[2026-06-07 17:55:00,445: INFO: _internal:  * Detected change in 'C:\\Users\\tarun pothuri\\END-TO-END-PIPELINE\\app.py', reloading]
+[2026-06-07 17:55:00,604: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 17:55:00,726: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 17:55:01,833: WARNING: _internal:  * Debugger is active!]
+[2026-06-07 17:55:01,837: INFO: _internal:  * Debugger PIN: 108-422-529]
+[2026-06-07 17:55:01,877: WARNING: _internal:  * Debugger is active!]
+[2026-06-07 17:55:01,881: INFO: _internal:  * Debugger PIN: 108-422-529]
+[2026-06-07 17:55:49,075: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "GET / HTTP/1.1" 200 -]
+[2026-06-07 17:55:49,117: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:49,119: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:49,123: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:49,129: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:49,712: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:49,714: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:55:49,760: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:55:49] "[33mGET /static/assets/favicon.ico HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:39,006: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:39] "POST /predict HTTP/1.1" 200 -]
+[2026-06-07 17:56:39,051: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:39,065: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:39] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:39,076: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:39] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:59,411: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "GET / HTTP/1.1" 200 -]
+[2026-06-07 17:56:59,460: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:59,467: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:59,499: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:59,515: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:59,547: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:56:59,576: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:56:59] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:57:06,302: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:57:06] "POST /predict HTTP/1.1" 200 -]
+[2026-06-07 17:57:06,339: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:57:06] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:57:06,346: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:57:06] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:57:06,349: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:57:06] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2026-06-07 17:57:44,429: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2026-06-07 17:57:44,430: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-06-07 17:57:44,444: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 17:57:45,620: WARNING: _internal:  * Debugger is active!]
+[2026-06-07 17:57:45,624: INFO: _internal:  * Debugger PIN: 108-422-529]
+[2026-06-07 17:58:07,100: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "GET / HTTP/1.1" 200 -]
+[2026-06-07 17:58:07,155: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:07,157: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:07,160: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:07,169: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:07,192: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:07,193: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:07] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:26,854: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:26] "POST /predict HTTP/1.1" 200 -]
+[2026-06-07 17:58:26,891: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:26] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:26,893: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:26] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2026-06-07 17:58:26,898: INFO: _internal: 127.0.0.1 - - [07/Jun/2026 17:58:26] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2026-06-07 18:00:24,355: INFO: _internal:  * Detected change in 'C:\\Users\\tarun pothuri\\END-TO-END-PIPELINE\\setup.py', reloading]
+[2026-06-07 18:00:24,355: INFO: _internal:  * Detected change in 'C:\\Users\\tarun pothuri\\END-TO-END-PIPELINE\\setup.py', reloading]
+[2026-06-07 18:00:24,355: INFO: _internal:  * Detected change in 'C:\\Users\\tarun pothuri\\END-TO-END-PIPELINE\\setup.py', reloading]
+[2026-06-07 18:00:24,530: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 18:00:24,536: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2026-06-07 18:00:24,661: INFO: _internal:  * Restarting with watchdog (windowsapi)]
